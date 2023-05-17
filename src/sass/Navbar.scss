@@ -1,0 +1,31 @@
+$breakpoints: 768px;
+$breakpoints1: 426px;
+
+.navbar{
+    position: relative;
+
+    .navbar-image{
+    width: 100%;
+    object-fit: cover;
+
+    @media(max-width: $breakpoints1){
+        width: 200%;   
+    }
+    }
+
+    
+    .navbar-text{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: absolute;
+    left: 4.25rem;
+    bottom: 0rem;
+
+    
+
+    @media(max-width: $breakpoints1){
+        left: 1.8rem;
+        font-size: 18px;
+        }
+    }
+}
